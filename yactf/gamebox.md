@@ -131,6 +131,7 @@ index.js:15 Uncaught TypeError: Cannot read properties of undefined (reading 'ui
 <img width="604" alt="Screenshot 2022-02-14 at 01 12 58" src="https://user-images.githubusercontent.com/154874/153777489-fa0c9924-7d31-4595-917c-d57249351a7e.png">
 
 Тут я очень долго читал спеку пытаясь придумать как определить уже errSelector но проиграл.
+UPD: [оказывается можно](https://portswigger.net/research/dom-clobbering-strikes-back)
 
 НО js же любит приводить всё к строкам, а undefined - вполне валидный css селектор, который выбирает элемент `<undefined>`
 
